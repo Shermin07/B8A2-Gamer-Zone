@@ -52,3 +52,107 @@ gap: 22px;
     padding: 5px 15px;
     border-radius: 3px;
 }
+/* nav section end */
+/* banner section starts */
+
+.banner-container{
+    
+    max-width: 1400px;
+    height: 100vh;
+    display: flex;
+    
+
+}
+.banner-text{
+    background-image: url("images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    text-align: left;
+    padding-top: 150px;
+    padding-left: 140px;
+}
+.banner-text h2{
+    font-size: 1.5rem;
+    padding-bottom: 12px;
+}
+.banner-text p{
+    
+    padding-bottom: 12px;
+}
+.banner-text p i{
+    height: 5px;
+    color:rgb(247, 58, 153) ;
+
+    }
+.banner-text h1{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    background-image: linear-gradient(to bottom, rgb(247, 58, 153),rgb(151, 10, 151));
+    color: transparent;
+    -webkit-background-clip: text;
+    padding-bottom: 12px;
+
+}
+
+.banner-image{
+    width: 50%;
+    
+
+}
+.banner-image img{
+    width: 75%;
+    height: 100%;
+    
+
+}
+.sign{
+    text-decoration: none;
+    background-color: rgb(247, 58, 153);
+    color: aliceblue;
+    font-weight: 100;
+    padding: 12px 18px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.rogue{
+    background-color: rgb(41, 177, 231);
+}
+.banner-text a{
+    margin-right: 20px;
+}
+.fa-user-plus{
+    margin-bottom: 40px;
+}
+/* banner section ends*/
+
+
+
+/* media query starts*/
+/* for mobile*/
+@media screen and (max-width:576px){
+    .nav-container{
+       flex-direction: column;
+        align-items: center;
+       }
+       .nav-items{
+     
+        flex-direction: column;
+       
+        }
+    }
+
+    /* for tablet*/
+    @media screen and (min-width:577px) and (max-width:768px) {
+        
+        .nav-container{
+            flex-direction: column;
+             align-items: center;
+            }
+            .nav-items{
+          
+             flex-direction: column;
+            
+             }
+    }
+

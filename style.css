@@ -43,7 +43,7 @@ gap: 22px;
    text-align: center;
 }
 .fa-brands  {
-    color: red;
+    color: rgb(3, 3, 42);
     padding-left: 5px;
     
 }
@@ -150,9 +150,8 @@ gap: 22px;
 .funny-span{
     font-size: 2rem;
     font-weight: bolder;
-    background-image: linear-gradient(to bottom, rgb(250, 88, 169),rgb(75, 7, 75));
-    color: transparent;
-    -webkit-background-clip: text;
+    
+   
     padding-bottom: 12px;
 
 
@@ -180,35 +179,178 @@ gap: 22px;
         
         }
 
-    .three img{
-        display: block;
-       
-        border-radius: 10px;
-        
-    }
-    .funny-images-three:hover .play-button{
-        opacity: 1;
-      
-     }
-.play-button{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    transition: opacity ;
-    color: rgb(161, 228, 61) ;
-    font-size: 1.3rem;
-    text-align: center;
+   
+
+.play-button:hover{
+    color:hotpink;
 }
 
-
-
+.play-button{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.5rem;
+}
 
 
 /* funny videos container ends*/
 
+/* play instantly starts  */
 
+.play-instantly-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1400px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 130px;
+    position: relative;
+    height: 100vh;
+
+}
+.play-instantly-text{
+    width: 50%;
+    padding-left: 115px;
+    
+    
+
+}
+.play-instantly-text h1{
+    font-size: 2.7rem;
+    margin-bottom: 20px;
+}
+.play-instantly-text span{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    background-image: linear-gradient(to bottom, rgb(247, 61, 154),rgb(75, 7, 75));
+    color: transparent;
+    -webkit-background-clip: text;
+    padding-bottom: 12px;
+
+}
+.play-instantly-image{
+    width: 50%;
+    }
+
+.bedge{
+    bottom: 100px;
+    margin-top: -170px;
+    margin-left: -80px;
+    height: 200px;
+    width: 290px;
+}
+.play-instantly-image img{
+    width: 67%;
+    height: 400px;
+    text-align: center;
+
+}
+
+
+/* play instantly ends*/
+/* tablet container starts*/
+
+.tablet-section{
+    max-width: 1440px;
+    margin-top: 150px;
+    width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    height: 250px;
+    
+
+
+}
+.tablet-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+   
+    text-align: left;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+   
+   
+    
+    
+}
+
+.tablet-pic{
+    border: 1px solid transparent;
+    background-color:rgb(250, 252, 253);
+    border-radius: 34px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    width: 170px;
+    padding: 7px 15px;
+    margin: 0 auto;
+    
+   
+}
+.tablet-pic img{
+    height: 50px;
+}
+.games{
+    margin-left: 50px;
+    margin-top: 20px;
+   
+}
+
+
+ .three:hover{
+    border: 1px solid rgb(238, 66, 152);
+}
+/* tablet ends*/
+footer{
+    max-width: 1400px;
+    background-color:rgb(2, 2, 57);
+    text-align: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    
+    color: aliceblue;
+    overflow-x: hidden;
+   
+}
+.footer-row-1{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+   justify-content: center;
+   margin-top: 70px;
+   margin-bottom: 35px;
+}
+.footer-row-1 img{
+   height: 30px;
+}
+.footer-row-1 h1{
+   font-size: 29px;
+}
+.footer-row-1 span{
+   color:  rgb(247, 38, 143);
+}
+.footer-row-2{
+    display: flex;
+    justify-content: center;
+    gap: 38px;
+    margin-bottom: 35px;
+}
+.icons i{
+    font-size: 30px;
+    color: aliceblue;
+    margin-right: 23px;
+    margin-bottom: 35px;
+}
+.footer-row-5{
+    margin-bottom: 35px;
+}
 
 /* media query starts*/
 /* for mobile*/
@@ -266,8 +408,83 @@ gap: 22px;
         
         }
 
-    }
 
+        .funny-images{
+           flex-direction: column;
+           width: 100%;
+           text-align: center;
+           
+        }
+        .funny-images p{
+            text-align: center;
+         }
+
+
+         .play-instantly-container{
+            flex-direction: column;
+            height: auto;
+            margin-top: 30px;
+            margin-bottom: 50px;
+         }
+         .play-instantly-text h1{
+            font-size: 1.5rem;
+            text-align: center;
+         }
+         .play-instantly-text {
+          padding-left: 0;
+           width: 100%;
+         }
+         .play-instantly-text p {
+          
+           width: 100%;
+           text-align: center;
+         }
+         .play-instantly-image{
+            width: 100%;
+            text-align: center;
+            padding-left: 80px;
+            margin-top: 40px;
+            
+         }
+        
+
+        .tablet-container{
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 18px;
+        column-gap: 10px;
+    
+    
+        }
+        .tablet-pic{
+           
+          font-size: 10px;
+            gap: 4px;
+            width: 100px;
+            padding: 4px 10px;
+            margin: 0 auto;
+            
+           
+        }
+        .tablet-pic img{
+            height: 26px;
+        }
+        .three:hover{
+            border: 1px solid rgb(238, 66, 152);
+        }
+
+        }
+
+        .footer-container{
+            width: 80%;
+        }
+        .footer-row-1, .footer-row-2, .footer-row-5{
+            margin-bottom: 25px;
+        }
+        .icons i{
+            font-size: 24px;
+            margin-right: 17px;
+            margin-bottom: 25px;
+        }
     /* for tablet*/
     @media screen and (min-width:577px) and (max-width:768px) {
         
@@ -327,10 +544,33 @@ gap: 22px;
                     
                 
                 }
+                .funny-images{
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    
+                    text-align: center;
+                    
+                 }
+                 .funny-images p{
+                    text-align: center;
+                 }
 
-
-
-
+                 .tablet-container{
+                    grid-template-columns: repeat(2, 1fr);
+                    row-gap: 18px;
+                    column-gap: 10px;
+                   
+             }
+             .tablet-pic{
+           
+                font-size: 15px;
+                  gap: 19px;
+                width: 230px;
+                  padding: 6px 29px;
+                  margin: 0 auto;
+                  
+                 
+              }
              
     }
 

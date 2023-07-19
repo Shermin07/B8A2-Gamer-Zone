@@ -255,13 +255,12 @@ gap: 22px;
 
 .bedge{
     bottom: 100px;
-    margin-top: -170px;
-    margin-left: -80px;
-    height: 200px;
-    width: 290px;
+    margin-top: -180px;
+    margin-left: -93px;
+   
 }
-.play-instantly-image img{
-    width: 67%;
+.horse-man{
+    width: 75%;
     height: 400px;
     text-align: center;
 
@@ -283,14 +282,15 @@ gap: 22px;
 
 }
 .tablet-container{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
+    display: flex;
+   flex-wrap: wrap;
     
    height: auto;
     text-align: left;
     justify-content: center;
-    width: 50%;
+    width: 90%;
     margin: 0 auto;
+    row-gap: 28px;
    }
 
 .tablet-pic{
@@ -309,11 +309,7 @@ gap: 22px;
 .tablet-pic img{
     height: 50px;
 }
-.games{
-    margin-left: 30px;
-    margin-top: 20px;
-   
-}
+
 .tablet-container p{
     font-weight: 300;
 }
@@ -471,9 +467,26 @@ footer{
             margin-top: 40px;
             
          }
+
+         .bedge{
+           
+            margin-top: -180px;
+            margin-left: -240px;
+           
+        }
+        .bedge img{
+            height: 200px;
+        }
+        .horse-man{
+            width: 67%;
+            height: 400px;
+            text-align: center;
+        
+        }
         
 
         .tablet-container{
+            display: grid;
         grid-template-columns: repeat(3, 1fr);
         
         row-gap: 18px;
@@ -598,12 +611,19 @@ footer{
     padding-left: 80px;
 }
 .bedge img{
-    height: 160px;
-    width:50% ;
+    height: 170px;
+    
 }
 .bedge{
     margin-top: -130px;
     margin-left: -80px;
+}
+
+.horse-man{
+    width: 79%;
+    height: 400px;
+    text-align: center;
+
 }
 
 .tablet-section{
@@ -612,6 +632,7 @@ footer{
 }
 
                  .tablet-container{
+                    display: grid;
                     grid-template-columns: repeat(3, 1fr);
                     row-gap: 18px;
                     column-gap: 10px;

@@ -94,6 +94,10 @@ gap: 22px;
     font-size: 1.5rem;
     padding-bottom: 12px;
 }
+.banner-text h2:hover{
+    color:rgb(41, 152, 41);
+   
+}
 .banner-text p{
     
     padding-bottom: 12px;
@@ -122,9 +126,8 @@ gap: 22px;
 .banner-image img{
     width: 75%;
     height: 100%;
-    
+    }
 
-}
 .sign{
     text-decoration: none;
     background-color: rgb(247, 58, 153);
@@ -133,6 +136,9 @@ gap: 22px;
     padding: 12px 18px;
     border-radius: 10px;
     margin-top: 20px;
+}
+.sign:hover{
+    background-color:rgb(41, 152, 41);
 }
 .rogue{
     background-color: rgb(41, 177, 231);
@@ -190,12 +196,10 @@ gap: 22px;
     height: 300px;
     margin: 0 auto;
     }
-.three{
-    border: none;
-}
-    .funny-images-three{
+
+.funny-images-three{
         position: relative;
-        }
+  }
         
 .play-button:hover{
     color:hotpink;
@@ -240,6 +244,10 @@ gap: 22px;
     font-size: 2.7rem;
     margin-bottom: 20px;
 }
+.play-instantly-text h1:hover{
+  color:rgb(41, 152, 41);
+
+}
 .play-instantly-text span{
     font-size: 2.5rem;
     font-weight: bolder;
@@ -283,9 +291,8 @@ gap: 22px;
 }
 .tablet-container{
     display: flex;
-   flex-wrap: wrap;
-    
-   height: auto;
+    flex-wrap: wrap;
+    height: auto;
     text-align: left;
     justify-content: center;
     width: 90%;
@@ -311,7 +318,7 @@ gap: 22px;
 }
 
 .tablet-container p{
-    font-weight: 300;
+    font-weight: 600;
 }
 .tablet-container p:hover{
     color:rgb(238, 66, 152) ;
@@ -328,7 +335,6 @@ footer{
     height: 400px;
     display: flex;
     justify-content: center;
-    
     color: aliceblue;
     overflow-x: hidden;
    
@@ -337,9 +343,9 @@ footer{
     display: flex;
     gap: 14px;
     align-items: center;
-   justify-content: center;
-   margin-top: 90px;
-   margin-bottom: 35px;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 35px;
 }
 .footer-row-1 img{
    height: 30px;
@@ -355,8 +361,15 @@ footer{
     justify-content: center;
     gap: 38px;
     margin-bottom: 35px;
-    font-size: 35px;
+    
 }
+.footer-container .footer-row-2  p{
+    font-size: 16px;
+}
+.footer-container .footer-row-5  p{
+    font-size: 16px;
+}
+
 .icons i{
     font-size: 30px;
     color: aliceblue;

@@ -359,7 +359,11 @@ footer{
        flex-direction: column;
         align-items: center;
         text-align: center;
+        margin-top: 70px;
        }
+       .nav-logo{
+        margin-bottom: 20px;
+    }
        .nav-items{
      
         flex-direction: column;
@@ -377,6 +381,7 @@ footer{
           padding-left: 0px;
             margin: 0 auto;
             text-align: center;
+            height: 250px;
            
         }
         .banner-text p{
@@ -396,7 +401,8 @@ footer{
         }
         .banner-image{
             width: 100%;
-            
+            margin-bottom: 20px;
+            margin-top: 30px;
         
         }
         .banner-image img{
@@ -479,6 +485,7 @@ footer{
         }
         .footer-row-1, .footer-row-2, .footer-row-5{
             margin-bottom: 25px;
+            font-size: 10px;
         }
         .icons i{
             font-size: 24px;
@@ -491,6 +498,10 @@ footer{
         .nav-container{
             flex-direction: column;
              align-items: center;
+             margin-top: 70px;
+            }
+            .nav-logo{
+                margin-bottom: 20px;
             }
             .nav-items{
           
@@ -505,11 +516,11 @@ footer{
                
                  }
                  .banner-text{
-                   
+                  
                     width: 100%;
                     text-align: center;
-                    
-                    padding-top: 13px;
+                    height: 240px;
+                    padding-top: 17px;
                     padding-left: 15px;
                 }
 
@@ -532,6 +543,7 @@ footer{
                     width: 65%;
                     margin: 0 auto;
                     margin-top: 25px;
+                   
                     
                 
                 }
@@ -579,6 +591,8 @@ footer{
                     grid-template-columns: repeat(2, 1fr);
                     row-gap: 18px;
                     column-gap: 10px;
+                    overflow-y: hidden;
+                    width: 90%;
                    
              }
              .tablet-pic{
@@ -591,8 +605,13 @@ footer{
                   
                  
               }
+
+              .three:hover{
+                border: 1px solid rgb(238, 66, 152);
+            }
               .footer-container{
                 width: 90%;
+               
             }
             .footer-row-1, .footer-row-2, .footer-row-5{
                 margin-bottom: 30px;

@@ -155,7 +155,9 @@ gap: 22px;
 .funny-span{
     font-size: 2rem;
     font-weight: bolder;
-    
+    background-image: linear-gradient(to bottom, rgb(250, 88, 169),rgb(75, 7, 75));
+    color: transparent;
+    -webkit-background-clip: text;
    
     padding-bottom: 12px;
 
@@ -267,18 +269,17 @@ gap: 22px;
     margin: 0 auto;
     overflow-x: hidden;
     height: 250px;
-    }
+    
 
-   .grid-one{
+
+}
+.tablet-container{
     display: grid;
     grid-template-columns: repeat(5,1fr);
-   
-   }
-   .grid-two{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    
-    width: 80%;
+   height: auto;
+    text-align: left;
+    justify-content: center;
+    width: 50%;
     margin: 0 auto;
    }
 
@@ -303,7 +304,12 @@ gap: 22px;
     margin-top: 20px;
    
 }
-
+.tablet-container p{
+    font-weight: 300;
+}
+.tablet-container p:hover{
+    color:rgb(238, 66, 152) ;
+}
 
  .three:hover{
     border: 1px solid rgb(238, 66, 152);
@@ -574,6 +580,7 @@ footer{
     justify-content: space-between;
     height: auto;
     gap: 70px;
+    margin-bottom: 50px;
 }
 .play-instantly-text{
     padding-left: 80px;
@@ -587,22 +594,26 @@ footer{
     margin-left: -80px;
 }
 
-
+.tablet-section{
+    width: 100%;
+    margin-bottom: 40px;
+}
 
                  .tablet-container{
-                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-columns: repeat(3, 1fr);
                     row-gap: 18px;
                     column-gap: 10px;
                     overflow-y: hidden;
-                    width: 90%;
+                    width: 100%;
+                    height: auto ;
                    
              }
              .tablet-pic{
            
                 font-size: 15px;
                   gap: 19px;
-                width: 230px;
-                  padding: 6px 29px;
+                 width: 230px;
+                  padding: 6px 4px;
                   margin: 0 auto;
                   
                  

@@ -152,9 +152,11 @@ gap: 22px;
 /* banner section ends*/
 
 /* funny videos container starts*/
+
 .funny-videos-container{
     max-width: 1400px;
     overflow-x: hidden;
+
 
 }
 .funny-videos-container h1{
@@ -179,40 +181,61 @@ gap: 22px;
 
 
 }
-.funny-images{
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 40px;
-    justify-content: center;
-    gap: 17px;
+
+.container{
+    position: relative;
+    margin-right: 13px;
+    
    
+  
+    
 }
-.funny-images p{
-   text-align: left;
-}
-.funny-images img{
-    width: 240px;
-    height: 300px;
-    margin: 0 auto;
-    }
-
-.funny-images-three{
-        position: relative;
-  }
-        
-.play-button:hover{
-    color:hotpink;
+.image{
+    display: block;
+   
+  
 }
 
-.play-button{
+.overlay{
     position: absolute;
-    top: 35%;
-    left: 30%;
-    color: aliceblue;
-    text-align: center;
-    font-size: 1.5rem;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 290px;
+    right:0 ;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-image: linear-gradient(black, rgb(54, 53, 53));
+    border-radius: 12px;
 }
+.container:hover .overlay{
+    opacity: 1;
+}
+.play-container p{
+    text-align: center;
+}
+.play-container{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: 60px;
+    gap: 40px;
+}
+ 
+.text{
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 
 
 /* funny videos container ends*/
@@ -443,16 +466,23 @@ footer{
         }
 
 
-        .funny-images{
-           flex-direction: column;
-           width: 100%;
-           text-align: center;
-           
-        }
-        .funny-images p{
-            text-align: center;
-         }
-
+        .play-container{
+            flex-direction: column;
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 40px;
+            
+          
+          }
+          .play-container img{
+              margin-left: 90px;
+          }
+          .play-container p{
+              text-align: center;
+          }
+                  
+               
+       
 
          .play-instantly-container{
             flex-direction: column;
@@ -602,16 +632,19 @@ footer{
                     
                 
                 }
-                .funny-images{
+      
+                .play-container{
                     display: grid;
-                    grid-template-columns: repeat(2, 1fr);
-                    
-                    text-align: center;
-                    
-                 }
-                 .funny-images p{
-                    text-align: center;
-                 }
+                    grid-template-columns: repeat(2,1fr);
+                   }  
+    
+                 .play-container p{
+                 text-align: center;
+                  }  
+                  .play-container img{
+                    margin-left: 26px;
+                }        
+    
 
 
 .play-instantly-container{
